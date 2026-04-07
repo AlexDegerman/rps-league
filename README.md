@@ -1,13 +1,15 @@
-# RPS League
+# 🎲 RPS League (Legacy / Match Viewer)
 
-A full-stack web application for exploring Rock Paper Scissors League match results and player statistics. Built as a Reaktor summer developer assignment.
+> ### 🚨 Project Evolution
+> This original version served as a match viewer for the Reaktor summer assignment. It has been succeeded by the **[RPS League App](https://github.com/AlexDegerman/rps-league-app)**, a full-scale rebuilding featuring real-time betting, BigInt scaling, and AI analytics.
+>
+> **New Live Demo:** [https://rpsleaguegame.vercel.app/](https://rpsleaguegame.vercel.app/)
 
-**Live demo:** https://rps-league-eight.vercel.app  
-> Match data is frozen as of the last cached snapshot (March 2026) - the Reaktor API this project depended on is no longer in service. A self-contained version with a mock match generator is in development.
-
-![RPS League Demo](./assets/rpsdemo.gif)
 ---
 
+A full-stack web application for exploring Rock Paper Scissors League match results and player statistics. Built as a Reaktor summer developer assignment. 
+
+![RPS League Demo](./assets/rpsdemo.gif)
 ## Overview
 
 RPS League consumes the Reaktor RPS League API and presents match data through a clean interface. Users can browse live match results, search match history by date or player, view player profiles, and explore leaderboards.
